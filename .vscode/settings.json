@@ -2,6 +2,9 @@
   "editor.codeActionsOnSave": [
     "source.fixAll.eslint"
   ],
+  "editor.formatOnSave": true,
+  // Tab complete snippets when their prefix match.
+  "editor.tabCompletion": "onlySnippets",
   "eslint.validate": [
     "javascript",
     "javascriptreact",

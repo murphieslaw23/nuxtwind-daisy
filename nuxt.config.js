@@ -59,6 +59,13 @@ export default defineNuxtConfig({
     prefix: 'Headless',
   },
 
+  components: [
+    {
+      path: '~/components',
+      pathPrefix: false,
+    },
+  ],
+
   build: {
     extend (config, ctx) {
       config.resolve.symlinks = false;
